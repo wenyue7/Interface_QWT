@@ -35,7 +35,7 @@ FORMS += \
 
 INCLUDEPATH += /usr/local/qwt-6.1.3/include
 LIBS += -L"/usr/local/qwt-6.1.3/lib/" -lqwt
-LIBS += -L"/usr/lib/x86_64-linux-gnu" -lmysqlclient -lpthread -lz -lm -lrt -ldl
+#LIBS += -L"/usr/lib/x86_64-linux-gnu" -lmysqlclient -lpthread -lz -lm -lrt -ldl
 #关于上一句,如果本机安装了mysql, 执行 mysql_config --cflags --libs 可以查到
 
 DISTFILES += \

@@ -613,7 +613,7 @@ MainWindow::MainWindow(QWidget *parent) :
 //    model->setTable("test1");
 //    //ui->listWidget->setModel(model);
 //    model->select();
-
+/*
     //使用 mysql 的API实现   一个不错的博客  https://www.cnblogs.com/47088845/p/5706496.html
     //----  初始化  连接数据库
     MYSQL mysql_conn;
@@ -631,7 +631,7 @@ MainWindow::MainWindow(QWidget *parent) :
     //----  关闭数据库
     mysql_free_result(res);
     mysql_close( &mysql_conn );
-
+*/
     /************************************************  定时器  *******************************************************/
     //方法一
     my_timerID = startTimer( 3000 ); //此处数值为毫秒  3秒
